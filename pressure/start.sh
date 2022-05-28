@@ -14,9 +14,9 @@ fi
 
 rm -rf $fileName/*
 rm -rf jmeter.log
-mkdir $fileName/result
+mkdir $fileName
 
-jmeter -n -t ./$target_name -l  ./$fileName/$fileName.jtl -e -o ./$fileName/result
+jmeter -n -t ./$target_name -l  ./$fileName/$fileName.jtl -e -o ./$fileName
 
 
 
