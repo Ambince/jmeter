@@ -1,0 +1,270 @@
+This is ApacheBench, Version 2.3 <$Revision: 1843412 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking demo.dagen.io (be patient)
+
+
+Server Software:        cloudflare
+Server Hostname:        demo.dagen.io
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-ECDSA-CHACHA20-POLY1305,256,256
+Server Temp Key:        X25519 253 bits
+TLS Server Name:        demo.dagen.io
+
+Document Path:          /api/querySetting
+Document Length:        89 bytes
+
+Concurrency Level:      1000
+Time taken for tests:   5.294 seconds
+Complete requests:      1000
+Failed requests:        0
+Total transferred:      1209016 bytes
+HTML transferred:       89000 bytes
+Requests per second:    188.89 [#/sec] (mean)
+Time per request:       5294.160 [ms] (mean)
+Time per request:       5.294 [ms] (mean, across all concurrent requests)
+Transfer rate:          223.02 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:      569  956 136.2    913    2049
+Processing:   531 1721 344.5   1682    3272
+Waiting:      332 1548 207.3   1585    2329
+Total:       1431 2678 361.1   2642    4215
+
+Percentage of the requests served within a certain time (ms)
+  50%   2642
+  66%   2761
+  75%   2810
+  80%   2895
+  90%   3230
+  95%   3440
+  98%   3507
+  99%   3546
+ 100%   4215 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1843412 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking demo.dagen.io (be patient)
+
+
+Server Software:        cloudflare
+Server Hostname:        demo.dagen.io
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-ECDSA-CHACHA20-POLY1305,256,256
+Server Temp Key:        X25519 253 bits
+TLS Server Name:        demo.dagen.io
+
+Document Path:          /api/attributeStatistics?on_sale=true
+Document Length:        1052 bytes
+
+Concurrency Level:      1000
+Time taken for tests:   8.978 seconds
+Complete requests:      1000
+Failed requests:        0
+Total transferred:      2174808 bytes
+HTML transferred:       1052000 bytes
+Requests per second:    111.39 [#/sec] (mean)
+Time per request:       8977.725 [ms] (mean)
+Time per request:       8.978 [ms] (mean, across all concurrent requests)
+Transfer rate:          236.57 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:      695  838 126.2    796    1975
+Processing:   363 5766 466.6   5650    7150
+Waiting:      324 5533 257.4   5602    5953
+Total:       1058 6604 489.7   6508    7934
+
+Percentage of the requests served within a certain time (ms)
+  50%   6508
+  66%   6656
+  75%   6788
+  80%   7079
+  90%   7381
+  95%   7494
+  98%   7580
+  99%   7610
+ 100%   7934 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1843412 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking demo.dagen.io (be patient)
+
+
+Server Software:        cloudflare
+Server Hostname:        demo.dagen.io
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-ECDSA-CHACHA20-POLY1305,256,256
+Server Temp Key:        X25519 253 bits
+TLS Server Name:        demo.dagen.io
+
+Document Path:          /api/getAttributesRarity?attributes[]=%7B%22trait_type%22:%22Nickname%22,%22value%22:%22Cinnabar+Devourer%22%7D&attributes[]=%7B%22trait_type%22:%22Divinity%22,%22value%22:%221%22%7D&attributes[]=%7B%22trait_type%22:%22Function%22,%22value%22:%22Convert%22%7D&attributes[]=%7B%22trait_type%22:%22Input%22,%22value%22:%22Light%22%7D&attributes[]=%7B%22trait_type%22:%22Spectrum%22,%22value%22:%22Red%22%7D&attributes[]=%7B%22trait_type%22:%22Output%22,%22value%22:%22Energy%22%7D&attributes[]=%7B%22trait_type%22:%22Type%22,%22value%22:%22C%22%7D&attributes[]=%7B%22trait_type%22:%22Variant%22,%22value%22:%221%22%7D
+Document Length:        147 bytes
+
+Concurrency Level:      1000
+Time taken for tests:   8.825 seconds
+Complete requests:      1000
+Failed requests:        0
+Total transferred:      1268042 bytes
+HTML transferred:       147000 bytes
+Requests per second:    113.32 [#/sec] (mean)
+Time per request:       8824.586 [ms] (mean)
+Time per request:       8.825 [ms] (mean, across all concurrent requests)
+Transfer rate:          140.33 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:      646  852  65.6    827    1044
+Processing:  1224 5643 680.1   5671    6948
+Waiting:      393 5409 592.8   5600    6641
+Total:       1871 6495 699.1   6614    7785
+
+Percentage of the requests served within a certain time (ms)
+  50%   6614
+  66%   6829
+  75%   6927
+  80%   7061
+  90%   7358
+  95%   7511
+  98%   7575
+  99%   7600
+ 100%   7785 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1843412 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking demo.dagen.io (be patient)
+
+
+Server Software:        cloudflare
+Server Hostname:        demo.dagen.io
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-ECDSA-CHACHA20-POLY1305,256,256
+Server Temp Key:        X25519 253 bits
+TLS Server Name:        demo.dagen.io
+
+Document Path:          /api/profile?walletAddress=0x37d8b0123d013ad824b14d8e6a946da425b551cd
+Document Length:        17 bytes
+
+Concurrency Level:      1000
+Time taken for tests:   4.803 seconds
+Complete requests:      1000
+Failed requests:        0
+Total transferred:      1137072 bytes
+HTML transferred:       17000 bytes
+Requests per second:    208.22 [#/sec] (mean)
+Time per request:       4802.586 [ms] (mean)
+Time per request:       4.803 [ms] (mean, across all concurrent requests)
+Transfer rate:          231.21 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:      623  906 107.9    873    1770
+Processing:   419 1804 392.1   1714    2902
+Waiting:      383 1596 235.5   1669    2902
+Total:       1063 2710 407.8   2647    3768
+
+Percentage of the requests served within a certain time (ms)
+  50%   2647
+  66%   2727
+  75%   3060
+  80%   3146
+  90%   3342
+  95%   3408
+  98%   3468
+  99%   3481
+ 100%   3768 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1843412 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking demo.dagen.io (be patient)
+
+
+Server Software:        cloudflare
+Server Hostname:        demo.dagen.io
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-ECDSA-CHACHA20-POLY1305,256,256
+Server Temp Key:        X25519 253 bits
+TLS Server Name:        demo.dagen.io
+
+Document Path:          /gens/00000000000000000000000000000000000000000000000000000000000000001.json
+Document Length:        551 bytes
+
+Concurrency Level:      1000
+Time taken for tests:   5.347 seconds
+Complete requests:      1000
+Failed requests:        0
+Total transferred:      1673022 bytes
+HTML transferred:       551000 bytes
+Requests per second:    187.03 [#/sec] (mean)
+Time per request:       5346.801 [ms] (mean)
+Time per request:       5.347 [ms] (mean, across all concurrent requests)
+Transfer rate:          305.57 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:      578  890 198.0    825    2010
+Processing:   459 1758 488.2   1636    3099
+Waiting:      332 1492 296.4   1563    2872
+Total:       1160 2648 511.5   2550    4315
+
+Percentage of the requests served within a certain time (ms)
+  50%   2550
+  66%   2686
+  75%   3098
+  80%   3236
+  90%   3408
+  95%   3519
+  98%   3606
+  99%   3661
+ 100%   4315 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1843412 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking demo.dagen.io (be patient)
+
+
+Server Software:        cloudflare
+Server Hostname:        demo.dagen.io
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-ECDSA-CHACHA20-POLY1305,256,256
+Server Temp Key:        X25519 253 bits
+TLS Server Name:        demo.dagen.io
+
+Document Path:          /api/verifyForBlindBox
+Document Length:        648 bytes
+
+Concurrency Level:      1000
+Time taken for tests:   6.942 seconds
+Complete requests:      1000
+Failed requests:        0
+Total transferred:      1770088 bytes
+HTML transferred:       648000 bytes
+Requests per second:    144.05 [#/sec] (mean)
+Time per request:       6941.827 [ms] (mean)
+Time per request:       6.942 [ms] (mean, across all concurrent requests)
+Transfer rate:          249.01 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:      538  813 150.5    777    1986
+Processing:   364 2385 1164.5   2391    5073
+Waiting:      364 2134 1077.7   1919    4650
+Total:        997 3199 1223.9   3164    5881
+
+Percentage of the requests served within a certain time (ms)
+  50%   3164
+  66%   3913
+  75%   4220
+  80%   4455
+  90%   4752
+  95%   5242
+  98%   5528
+  99%   5622
+ 100%   5881 (longest request)
